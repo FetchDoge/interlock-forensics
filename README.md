@@ -2,7 +2,7 @@
 
 **Pre-registers the AEGIS Day-30 provenance gate as one SHA-256-checkable file at a public tag.**
 
-[![Claims integrity](https://github.com/marsojuji-cmyk/interlock-forensics/actions/workflows/claims.yml/badge.svg)](https://github.com/marsojuji-cmyk/interlock-forensics/actions/workflows/claims.yml)
+[![Claims integrity](https://github.com/FetchDoge/interlock-forensics/actions/workflows/claims.yml/badge.svg)](https://github.com/FetchDoge/interlock-forensics/actions/workflows/claims.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This is a public witness repo for the AEGIS Day-30 gate (cutoff 2026-10-27 23:59 America/Edmonton). Its scope is this SDK, the pre-registered benchmark, and the smallest AEGIS slice the benchmark can score, not the full agent OS. It contains a pre-registration, a draft attestation schema and a claims check. It has no SDK code yet.
@@ -16,7 +16,7 @@ This is a public witness repo for the AEGIS Day-30 gate (cutoff 2026-10-27 23:59
 ## Quickstart
 
 ```
-git clone --depth 1 --branch aegis-day30 https://github.com/marsojuji-cmyk/interlock-forensics.git
+git clone --depth 1 --branch aegis-day30 https://github.com/FetchDoge/interlock-forensics.git
 cd interlock-forensics
 sha256sum prereg/day30.md
 ```
