@@ -5,7 +5,7 @@ Thanks for your interest in contributing! Here's how to get started.
 ## Quick Setup
 
 ```bash
-git clone https://github.com/marsojuji-cmyk/interlock-forensics
+git clone https://github.com/FetchDoge/interlock-forensics
 cd interlock-forensics
 python3 -m venv .venv
 source .venv/bin/activate
