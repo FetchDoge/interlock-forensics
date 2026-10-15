@@ -31,7 +31,7 @@ sha256sum prereg/day30.md
 
 Checked 2026-10-07:
 
-- Tag `aegis-day30` **exists**. It is annotated, by "Ektar", dated 2026-10-02 04:55 MDT, and points at commit `c24e2e5`.
+- Tag `aegis-day30` **exists**. It is annotated, by an AI agent identity, dated 2026-10-02 04:55 MDT, and points at commit `c24e2e5`.
 - At that tag, `sha256sum prereg/day30.md` gives `ad1938c74d7ea7a4bd25632837803cfa4f9f14994c49928ae32842b49525f48b`, identical to `main`.
 - The tagged file still reads "Status: DRAFT on main. Not the frozen hash. Tag aegis-day30 is not cut." Its "Still UNKNOWN" section lists the verify key and signature algorithm, the verify invocation, and the URL where M_fc is recorded. The witness rule requires all of these in the tagged file before a hash counts, so **this tag does not yet satisfy the repo's own freeze rule.**
 - `python3 scripts/check_claims.py` passes. CI runs it on every push.
@@ -46,6 +46,8 @@ Checked 2026-10-07:
 ## Status
 
 Pre-registration in progress. The freeze needs the unknowns above resolved inside the tagged file. How to reconcile the existing tag with that rule is the maintainer's decision, due before the 2026-10-27 cutoff. No graded SDK diff merges before the freeze.
+
+Built by Marcus Richards, directing AI coding agents.
 
 ## License
 
